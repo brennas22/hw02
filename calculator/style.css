@@ -1,0 +1,40 @@
+
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900');
+
+body {
+   font-family: Raleway, sans-serif;
+}
+
+/* from https://www.w3schools.com/html/html_tables.asp */
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+
+th, td {
+  padding: 15px;
+  text-align: center;
+}
+
+.operator {
+  background-color: #EF5C00;
+  color: white;
+  font-weight: 700;
+  font-size: 1.5em;
+}
+
+
+
+.secondary {
+  background-color: #C6C6C6;
+}
+
+.secondary:hover {
+  background-color: #747474;
+  color: white;
+}
+
+.number:hover {
+  background-color: #E6E6E6;
+}
